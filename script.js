@@ -3,7 +3,7 @@
 let body = document.querySelector('body')
 function textUpdate() {
     let xhr = new XMLHttpRequest()
-    let URL = 'http://jsonplaceholder.typicode.com/posts';
+    let URL = 'https://jsonplaceholder.typicode.com/posts';
     xhr.open('GET', URL)
     xhr.send()
 
